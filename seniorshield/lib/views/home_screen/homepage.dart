@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> sendSMS(String message, String phoneNumber) async {
     const String apiUrl = 'https://sms.aakashsms.com/sms/v3/send';
-    const String authToken = '3ba1173a2a50c229b58cdd77a55f1dccb8e8f22daf1b9c7b4ca3a6f01711f466';  // Replace 'YOUR_AUTH_TOKEN' with your actual token
+    const String authToken ='';  // Replace 'YOUR_AUTH_TOKEN' with your actual token
 
     try {
       var response = await http.post(
